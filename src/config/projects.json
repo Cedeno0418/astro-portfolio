@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Task Manager",
+        "description": "This task management application was built using a combination of HTML, Jinja, Django, and Python to provide a dynamic and user-friendly platform for creating, managing, editing, and deleting tasks. The front-end uses HTML for structure, with Jinja templates enabling efficient dynamic content rendering. The back-end is powered by Django, a powerful Python framework, to handle task logic and database interactions. For version control, I utilized Git, ensuring smooth collaboration and easy tracking of changes throughout the development process. The application is containerized using Docker, which allows for seamless deployment and portability. I deployed the system on a Debian-based Linux environment running on a Raspberry Pi.",
+        "image": "images/finger-print.svg"
+    },
+    {
+        "title": "Farm Land 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum totam voluptatum recusandae similique iste cum dicta eveniet esse magnam quos in, repudiandae, eos porro soluta expedita necessitatibus ad. Deserunt eveniet rem magnam porro reiciendis qui nobis corrupti eligendi ad exercitationem, quasi modi optio, enim quisquam molestias laboriosam reprehenderit? Qui!",
+        "image": "images/finger-print.svg"
+    },
+    {
+        "title": "Farm Land 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum totam voluptatum recusandae similique iste cum dicta eveniet esse magnam quos in, repudiandae, eos porro soluta expedita necessitatibus ad. Deserunt eveniet rem magnam porro reiciendis qui nobis corrupti eligendi ad exercitationem, quasi modi optio, enim quisquam molestias laboriosam reprehenderit? Qui!",
+        "image": "images/finger-print.svg"
+    }
+]

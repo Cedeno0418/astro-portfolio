@@ -1,0 +1,37 @@
+---
+---
+
+<div class="rounded-xl fixed container bg-zinc-800">
+    <div class="pl-4 pt-4">
+        <ion-icon name="menu" class="cursor-pointer md:hidden" id="menu-button"></ion-icon>
+    </div>
+    <ul class="nav-links hidden md:flex md:flex-row flex-col justify-end gap-4 p-4 mr-4">
+        <li><a href="#section-home">Home</a></li>
+        <li><a href="#section-skills">Skills</a></li>
+        <li><a href="#section-experience">Experience</a></li>
+        <li><a href="#section-about">About Me</a></li>
+        <li><a href="#section-projects">Projects</a></li>
+    </ul>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+
+        const navLinks = document.querySelector('.nav-links')
+        const button = document.getElementById ("menu-button")
+
+        button.addEventListener("click", (e) => {
+            if (e.target.name === 'menu'){
+                button.setAttribute('name', 'close')
+            }
+                else {
+                    button.setAttribute('name', 'menu')
+                }
+            navLinks.classList.toggle('hidden')
+            navLinks.classList.toggle('flex')
+        }, false)
+     
+    </script>
+
+</div>

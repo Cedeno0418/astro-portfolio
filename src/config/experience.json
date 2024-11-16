@@ -1,0 +1,17 @@
+[
+    {
+        "title":"System Debug Software Engineer",
+        "company":"Intel, Guadalajara, Jalisco, México",
+        "description":"As a System Debug Software Engineer, I specialized in troubleshooting and optimizing complex software systems. I worked with technologies such as Python, Linux, Docker, and Jenkins to automate processes, develop testing frameworks, and improve system performance."
+    },
+    {
+        "title":"Software Engineer",
+        "company":"Continental, Guadalajara, Jalisco, México",
+        "description":"As a Software Engineer, I worked on the development and validation of automotive Body Control Modules (BCM). My responsibilities included writing efficient C++ code for embedded systems, utilizing Linux for development and testing environments. I used Git for version control and Jenkins for continuous integration and deployment."
+    },
+    {
+        "title":"Functional Validation Intern",
+        "company":"Intel, Guadalajara, Jalisco, México",
+        "description":"As a Functional Validation Intern, I focused on validating System on a Chip (SoC) designs to ensure their functionality and performance. I used Python for scripting and automation, Linux for the development environment, and Git for version control. Additionally, I worked with C++ to develop drivers."
+    }
+]

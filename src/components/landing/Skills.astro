@@ -1,0 +1,21 @@
+---
+import skills from '../../config/skills.json'
+---
+
+<section id="section-skills" class="flex flex-col md:p-20 py-20 gap-y-4">
+    <h1 class="font-bold text-5xl mb-3 text-center">Skills</h1>
+    <div class="flex-1 grid md:grid-cols-3 grid-cols-2 gap-10 mt-10">
+        {
+            skills.map(skill =>
+                <div class="text-center">
+                    <img src={skill.image} alt="" class="w-20 m-auto">
+                    <p>{skill.title}</p>
+                </div>
+                )
+        }
+    </div>
+    <div class="container flex flex-1 flex-col gap-y-10 text-center mt-6">
+        <h2 class="text-5xl font-bold">And Learning More</h2>
+        <p class="text 3xl text-zinc-300">If you need that I learn another technology I can learn it.</p>
+    </div>
+</section>
